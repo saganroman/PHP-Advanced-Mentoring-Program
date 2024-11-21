@@ -17,6 +17,11 @@ class Router
         $this->routes = include __DIR__ . '/../routes.php';
     }
 
+
+    public function addRoute(string $method, string $path, string $handler)
+    {
+        $this->routes[$method . ' ' . $path] = $handler;
+    }
     public function dispatch(ServerRequestInterface $request): ResponseInterface
     {
         $path = $request->getMethod() . ' ' . $request->getUri()->getPath();

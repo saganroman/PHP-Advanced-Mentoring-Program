@@ -20,3 +20,22 @@
 - PHPStan: `./vendor/bin/phpstan analyse src`
 - PHP_CodeSniffer: `./vendor/bin/phpcs src`
 - Psalm: `./vendor/bin/psalm`
+
+## Running Tests
+
+### Unit Tests
+To run the unit tests, execute the following command:
+
+```bash
+vendor/bin/phpunit
+```
+
+### Behat Tests
+To run the Behat tests, execute the following command:
+- features - place your *.feature files here
+- features/bootstrap - place your context classes here
+- features/bootstrap/FeatureContext.php - place your definitions, transformations and hooks here
+
+```bash
+vendor/bin/behat
+```
