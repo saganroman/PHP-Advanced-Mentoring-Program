@@ -39,3 +39,14 @@ To run the Behat tests, execute the following command:
 ```bash
 vendor/bin/behat
 ```
+### Features
+- **HTML Rendering**: Render dynamic templates with variables.
+- **JSON Response**: Return JSON data for API responses.
+- **Variable Injection**: Pass data securely into templates.
+- **Security**: All outputs are escaped to prevent XSS.
+- **Nested Templates**: Support for including other templates.
+
+### How to Use
+- **Render HTML**:
+  ```php
+  $templateEngine->render('template_name', ['key' => 'value']);

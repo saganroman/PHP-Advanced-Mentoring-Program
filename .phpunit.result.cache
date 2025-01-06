@@ -1,1 +1,1 @@
-{"version":1,"defects":{"RouterTest::testRouteDispatch":3},"times":{"RouterTest::testRouteDispatch":0.013,"RouterTest::testRouteNotFound":0}}
+{"version":1,"defects":{"RouterTest::testRouteDispatch":3,"TemplateEngineTest::testRenderHtml":3,"TemplateEngineTest::testRenderJson":4,"TemplateEngineTest::testEscaping":4},"times":{"RouterTest::testRouteDispatch":0.014,"RouterTest::testRouteNotFound":0,"TemplateEngineTest::testRenderHtml":0.001,"TemplateEngineTest::testRenderJson":0,"TemplateEngineTest::testEscaping":0.001}}

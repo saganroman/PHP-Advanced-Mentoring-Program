@@ -15,7 +15,7 @@ $container = new ContainerBuilder();
 
 //add all controllers into DependencyInjection container
 // $controllersDir = __DIR__ . '/../src/controllers/';
-$controllersDir = '/app/src/controllers/';
+$controllersDir = '/var/www/html/src/controllers/';
 $namespace = 'App\\Controllers\\';
 $controllers = new DirectoryIterator($controllersDir);
 
